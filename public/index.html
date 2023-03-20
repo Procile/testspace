@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="styles/favicon/CS.svg">
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
+  <script async src="https://arc.io/widget.min.js#YgScNEk8"></script>
+</head>
+<body>
+  <div id="bg">
+    <div class="logo">
+      <img src="styles/logo/logo.svg">
+    </div>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">
+        <img src="styles/icons/icon.svg">
+      </button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="games.html">Games</a>
+        <a href="movies.html">Movies</a>
+        <a href="credits.html">Credits</a>
+      </div>
+    </div>
+      <div class="searchbox" id="searchbox">
+        <form id="uv-form" class="flex-center">
+          <input id="uv-search-engine" value="https://www.google.com/search?q=%s"
+            type="hidden" />
+          <input id="uv-address" type="text" placeholder="Search...."
+            />
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="uv/uv.bundle.js" defer></script>
+  <script src="uv/uv.config.js" defer></script>
+  <script src="register-sw.js" defer></script>
+  <script src="search.js" defer></script>
+  <script src="index.js" defer></script>
+  <script src="js/particles/particles.js"></script>
+  <script src="js/particles/app.js"></script>
+  <script src="js/dropdown.js"></script>
+  <div class="footer">
+    <p>Join <a href="https://discord.gg/Vbnp4Tesuu">Chromium Space</a> For More Links!</p>
+  </div>
+</body>
+</html>
